@@ -1,0 +1,84 @@
+body {
+    font-family: sans-serif;
+    margin: 100;
+    padding: 100;
+    background-color: whitesmoke;
+}
+
+header {
+    background-color: pink;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    margin: 10px 0;
+}
+
+main {
+    padding: 150px;
+}
+
+.search-bar {
+    margin-bottom: 20px;
+}
+
+.search-bar form {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar label {
+    margin-right: 100px;
+}
+
+.search-bar input[type="text"] {
+    padding: 5px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.search-bar button[type="submit"] {
+    padding: 5px 10px;
+    background-color: grey;
+    color: pink;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.phone-books {
+    margin-bottom: 150px;
+}
+
+.phone-books h2 {
+    margin: 0;
+}
+
+.phone-books table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.phone-books th,
+.phone-books td {
+    padding: 8px;
+    border: 1px solid gray;
+}
+
+.phone-books th {
+    text-align: left;
+    background-color: grey;
+}
+
+footer {
+    background-color: pink;
+    padding: 20px;
+    text-align: center;
+}
+
+
